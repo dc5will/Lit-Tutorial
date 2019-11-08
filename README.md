@@ -1,5 +1,5 @@
 # Lit-Element Tutorial
-Personal reference for learning about setting up LitElement
+Personal reference for learning about setting up LitElement locally
 
 ## Initial Setup
 - Install npm and Node.js (already installed)
@@ -8,7 +8,7 @@ Personal reference for learning about setting up LitElement
 - `npm i -D npm i -D @webcomponents/webcomponentsjs`
 - optional: install 'lit-html' VSCode extension to lint
 
-## How to view code locally
+## View in browser
 - `polymer serve`
 - Terminal will have link to http://127.0.0.1:8081/
 - ctrl + c to stop

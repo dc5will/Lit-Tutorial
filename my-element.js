@@ -18,7 +18,7 @@ class MyElement extends LitElement {
      */
     return html`
       <!-- template content -->
-      <p>Hello World! It works</p>
+      <p>Hello World! my-element.js renders works</p>
     `;
   }
 }

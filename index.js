@@ -1,11 +1,12 @@
 // Use relative paths for peer dependencies
-import "./my-element";
+import { LitElement, html } from 'lit-element';
+import "./to-do-app";
 
-class MyOtherElement extends LitElement {
+class MainPage extends LitElement {
   render() {
     return html`
-      <my-element></my-element>
+      <to-do-app></to-do-app>
     `;
   }
 }
-customElements.define("my-other-element", MyOtherElement);
+customElements.define("main-page", MainPage);
